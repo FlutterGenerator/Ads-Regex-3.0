@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="angle" format="integer" />
+    <attr name="colors" format="reference" />
+    <attr name="customFont" format="string" />
+    <attr name="maxFPS" format="integer" />
+    <attr name="simultaneousColors" format="integer" />
+    <attr name="speed" format="integer" />
+</resources>

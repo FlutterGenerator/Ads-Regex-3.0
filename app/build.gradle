@@ -1,0 +1,69 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace = 'adsreg.gaze'
+    //noinspection GradleDependency
+    compileSdkVersion 35
+
+    defaultConfig {
+        applicationId "adsreg.gaze"
+        minSdkVersion 21
+        //noinspection OldTargetApi
+        targetSdkVersion 33
+        versionCode 160
+        versionName "5.0"
+
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('HunMod.jks')
+            storePassword 'HunMod'
+            keyAlias 'HunMod'
+            keyPassword 'HunMod'
+        }
+        release {
+            storeFile file("HunMod.jks")
+            storePassword "HunMod"
+            keyAlias "HunMod"
+            keyPassword "HunMod"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+        }
+        debug {
+            debuggable true
+            jniDebuggable false
+            signingConfig = signingConfigs.debug
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.github.Mursaat:AnimatedGradientTextView:v0.0.6")
+}

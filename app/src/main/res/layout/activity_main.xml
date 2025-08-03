@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:orientation="vertical">
+
+    <ScrollView
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:background="#ffffffff"
+         android:id="@+id/scroll"
+         android:overScrollMode="never">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:background="#ffffffff"
+             android:orientation="vertical"
+             android:id="@+id/linear">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8.0dip">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8.0dip">
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0dip"
+                    android:text="@string/ads"
+                    android:textColor="#ff000000"
+                    android:textSize="20.0sp" />
+
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/regex_3_0"
+                    android:textColor="#ffb9b9b9"
+                    android:textSize="20.0sp" />
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="256dp"
+                    android:layout_height="45.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:id="@+id/imageview1"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:importantForAccessibility="no"
+                        android:padding="8.0dip"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/menu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base1">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t1"
+                     android:text="@string/regex_1" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t2"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t3"
+                     android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_v" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t4"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t5"
+                     android:text="@string/_1_n_n_return_void" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear5">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base2">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t6"
+                     android:text="@string/regex_2" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t7"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t8"
+                     android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_z" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t9"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t10"
+                     android:text="@string/_1_n_n_const_4_v0_0x0_n_n_return_v0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear6">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base3">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t11"
+                     android:text="@string/regex_3" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t12"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t13"
+                     android:text="@string/invoke_loadad_vz" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t14"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t15"
+                     android:text="@string/_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear12">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base4">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t16"
+                     android:text="@string/regex_4" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t17"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t18"
+                     android:text="@string/invoke_gms_loadurl_loaddatawithbaseurl_requestinterstitialad_showinterstitial_showvideo_showad_loaddata_onadclicked_onadloaded_isloading_loadads_adloader_adrequest_adlistener_adview_v" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t19"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t20"
+                     android:text="@string/_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear14">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base5">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t21"
+                     android:text="@string/regex_5" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t22"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t23"
+                     android:text="@string/http_61_145_124_238_ads_ad_ads_analytics_localytics_com_mobfox_com_mp_mydas_mobi_plus1_wapstart_ru_scorecardresearch_com_startappservice_com_ad_ads_ad_mail_ad_logging_ad_api_kaffnet_com_adc3_launch_adcolony_adinformation_adkmob_admax_admob_admost_adsafeprotected_adservice_adtag_advert_adwhirl_adz_wattpad_com_alta_eqmob_com_amazon_ads_amazon_ads_amobee_analytics_applovin_applvn_appnext_appodeal_appsdt_appsflyer_burstly_cauly_cloudfront_com_google_android_gms_ads_identifier_service_start_crashlytics_crispwireless_doubleclick_dsp_batmobil_net_duapps_dummy_flurry_gad_getads_google_com_dfp_googleads_googleads_googleapis_ad_googlesyndication_googletagmanager_greystripe_gstatic_inmobi_inneractive_jumptag_live_chartboost_com_madnet_millennialmedia_moatads_mopub_native_ads_pagead_pubnative_smaato_supersonicads_tapas_tapjoy_unityads_vungle_zucks" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t24"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t25"
+                     android:text="@string/i" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear16">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base6">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t26"
+                     android:text="@string/regex_6" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t27"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t28"
+                     android:text="@string/ca_app_pub_d_16_d_10" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t29"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t30"
+                     android:text="@string/ca_app_pub_0000000000000000_0000000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear18">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base7">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t31"
+                     android:text="@string/regex_7" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t32"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t33"
+                     android:text="@string/invoke_l_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t34"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t35"
+                     android:text="@string/nop" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear20">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base8">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t36"
+                     android:text="@string/regex_8" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t37"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t38"
+                     android:text="@string/invoke_lcom_requestinterstitialad_v_invoke_lcom_loadads_v_invoke_lcom_loadad_v_invoke_lcom_requestbannerad_v_invoke_s_v_p_d_slcom_facebook_show_v_invoke_s_v_p_d_slcom_google_show_v" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t39"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t40"
+                     android:text="@string/nop" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear22">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:layout_margin="5.0dip"
+                 android:padding="8.0dip"
+                 android:orientation="vertical"
+                 android:id="@+id/base9">
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t41"
+                     android:text="@string/regex_9" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t42"
+                     android:text="@string/search" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t43"
+                     android:text="@string/method_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v_n_registers_d_ss_end_method" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t44"
+                     android:text="@string/replace" />
+
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     app:angle="135"
+                     app:maxFPS="30"
+                     android:padding="8.0dip"
+                     app:colors="@array/color"
+                     app:speed="2000"
+                     android:textSize="16.0sp"
+                     app:simultaneousColors="3"
+                     android:textColor="#ff000000"
+                     android:id="@+id/t45"
+                     android:text="@string/u" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:padding="8.0dip"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear23">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+         android:layout_height="291.0dip"
+         android:layout_width="fill_parent"
+         android:padding="8.0dip"
+         android:orientation="horizontal"
+         android:id="@+id/linear10">
+
+    </LinearLayout>
+
+</LinearLayout>

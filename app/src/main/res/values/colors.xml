@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="materialBlue">#ff2196f3</color>
+    <color name="materialDeepPurple">#ff673ab7</color>
+    <color name="materialIndigo">#ff3f51b5</color>
+    <color name="materialPink">#ffe91e63</color>
+    <color name="materialPurple">#ff9c27b0</color>
+    <color name="materialRed">#fff44336</color>
+</resources>

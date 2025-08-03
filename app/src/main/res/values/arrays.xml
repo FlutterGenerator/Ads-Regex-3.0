@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="color">
+        <item>#fffeac5e</item>
+        <item>#ffc779d0</item>
+        <item>#ff4bc0c8</item>
+    </array>
+    <array name="default_gradient_colors">
+        <item>@color/materialRed</item>
+        <item>@color/materialPink</item>
+        <item>@color/materialPurple</item>
+        <item>@color/materialDeepPurple</item>
+        <item>@color/materialIndigo</item>
+        <item>@color/materialBlue</item>
+    </array>
+</resources>
