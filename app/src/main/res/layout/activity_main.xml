@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-     xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="fill_parent"
-     android:layout_width="fill_parent"
-     android:orientation="vertical">
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
 
     <ScrollView
          android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/regex_3_0"
-                    android:textColor="#ffb9b9b9"
+                    android:textColor="#A1887F"
                     android:textSize="20.0sp" />
 
                 <LinearLayout
@@ -68,7 +68,7 @@
 
                     <ImageView
                         android:id="@+id/imageview1"
-                        android:layout_width="45dp"
+                        android:layout_width="150dip"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:importantForAccessibility="no"
@@ -117,18 +117,19 @@
                      android:text="@string/search" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
-                     android:layout_height="wrap_content"
-                     android:layout_width="wrap_content"
-                     app:angle="135"
-                     app:maxFPS="30"
-                     android:padding="8.0dip"
-                     app:colors="@array/color"
-                     app:speed="2000"
-                     android:textSize="16.0sp"
-                     app:simultaneousColors="3"
-                     android:textColor="#ff000000"
-                     android:id="@+id/t3"
-                     android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_v" />
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0dip"
+                    android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_v"
+                    android:textColor="#1976D2"
+                    android:textSize="16.0sp"
+                    app:angle="135"
+                    app:colors="@array/color"
+                    app:maxFPS="30"
+                    app:simultaneousColors="3"
+                    app:speed="2000"
+                    tools:ignore="TextContrastCheck" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -206,18 +207,19 @@
                      android:text="@string/search" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
-                     android:layout_height="wrap_content"
-                     android:layout_width="wrap_content"
-                     app:angle="135"
-                     app:maxFPS="30"
-                     android:padding="8.0dip"
-                     app:colors="@array/color"
-                     app:speed="2000"
-                     android:textSize="16.0sp"
-                     app:simultaneousColors="3"
-                     android:textColor="#ff000000"
-                     android:id="@+id/t8"
-                     android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_z" />
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0dip"
+                    android:text="@string/methods_public_private_static_sb_babstract_nativeb_loadad_z"
+                    android:textColor="#1976D2"
+                    android:textSize="16.0sp"
+                    app:angle="135"
+                    app:colors="@array/color"
+                    app:maxFPS="30"
+                    app:simultaneousColors="3"
+                    app:speed="2000"
+                    tools:ignore="TextContrastCheck" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -234,18 +236,19 @@
                      android:text="@string/replace" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
-                     android:layout_height="wrap_content"
-                     android:layout_width="wrap_content"
-                     app:angle="135"
-                     app:maxFPS="30"
-                     android:padding="8.0dip"
-                     app:colors="@array/color"
-                     app:speed="2000"
-                     android:textSize="16.0sp"
-                     app:simultaneousColors="3"
-                     android:textColor="#ff000000"
-                     android:id="@+id/t10"
-                     android:text="@string/_1_n_n_const_4_v0_0x0_n_n_return_v0" />
+                    android:id="@+id/t10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0dip"
+                    android:text="@string/_1_n_n_const_4_v0_0x0_n_n_return_v0"
+                    android:textColor="#AA00FF"
+                    android:textSize="16.0sp"
+                    app:angle="135"
+                    app:colors="@array/color"
+                    app:maxFPS="30"
+                    app:simultaneousColors="3"
+                    app:speed="2000"
+                    tools:ignore="TextContrastCheck" />
 
             </LinearLayout>
 
@@ -395,7 +398,8 @@
                      app:simultaneousColors="3"
                      android:textColor="#ff000000"
                      android:id="@+id/t18"
-                     android:text="@string/invoke_gms_loadurl_loaddatawithbaseurl_requestinterstitialad_showinterstitial_showvideo_showad_loaddata_onadclicked_onadloaded_isloading_loadads_adloader_adrequest_adlistener_adview_v" />
+                     android:text="@string/invoke_gms_loadurl_loaddatawithbaseurl_requestinterstitialad_showinterstitial_showvideo_showad_loaddata_onadclicked_onadloaded_isloading_loadads_adloader_adrequest_adlistener_adview_v"
+                    tools:ignore="VisualLintLongText" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -484,7 +488,8 @@
                      app:simultaneousColors="3"
                      android:textColor="#ff000000"
                      android:id="@+id/t23"
-                     android:text="@string/http_61_145_124_238_ads_ad_ads_analytics_localytics_com_mobfox_com_mp_mydas_mobi_plus1_wapstart_ru_scorecardresearch_com_startappservice_com_ad_ads_ad_mail_ad_logging_ad_api_kaffnet_com_adc3_launch_adcolony_adinformation_adkmob_admax_admob_admost_adsafeprotected_adservice_adtag_advert_adwhirl_adz_wattpad_com_alta_eqmob_com_amazon_ads_amazon_ads_amobee_analytics_applovin_applvn_appnext_appodeal_appsdt_appsflyer_burstly_cauly_cloudfront_com_google_android_gms_ads_identifier_service_start_crashlytics_crispwireless_doubleclick_dsp_batmobil_net_duapps_dummy_flurry_gad_getads_google_com_dfp_googleads_googleads_googleapis_ad_googlesyndication_googletagmanager_greystripe_gstatic_inmobi_inneractive_jumptag_live_chartboost_com_madnet_millennialmedia_moatads_mopub_native_ads_pagead_pubnative_smaato_supersonicads_tapas_tapjoy_unityads_vungle_zucks" />
+                     android:text="@string/http_61_145_124_238_ads_ad_ads_analytics_localytics_com_mobfox_com_mp_mydas_mobi_plus1_wapstart_ru_scorecardresearch_com_startappservice_com_ad_ads_ad_mail_ad_logging_ad_api_kaffnet_com_adc3_launch_adcolony_adinformation_adkmob_admax_admob_admost_adsafeprotected_adservice_adtag_advert_adwhirl_adz_wattpad_com_alta_eqmob_com_amazon_ads_amazon_ads_amobee_analytics_applovin_applvn_appnext_appodeal_appsdt_appsflyer_burstly_cauly_cloudfront_com_google_android_gms_ads_identifier_service_start_crashlytics_crispwireless_doubleclick_dsp_batmobil_net_duapps_dummy_flurry_gad_getads_google_com_dfp_googleads_googleads_googleapis_ad_googlesyndication_googletagmanager_greystripe_gstatic_inmobi_inneractive_jumptag_live_chartboost_com_madnet_millennialmedia_moatads_mopub_native_ads_pagead_pubnative_smaato_supersonicads_tapas_tapjoy_unityads_vungle_zucks"
+                    tools:ignore="VisualLintLongText" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -662,7 +667,8 @@
                      app:simultaneousColors="3"
                      android:textColor="#ff000000"
                      android:id="@+id/t33"
-                     android:text="@string/invoke_l_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v" />
+                     android:text="@string/invoke_l_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v"
+                    tools:ignore="VisualLintLongText" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -751,7 +757,8 @@
                      app:simultaneousColors="3"
                      android:textColor="#ff000000"
                      android:id="@+id/t38"
-                     android:text="@string/invoke_lcom_requestinterstitialad_v_invoke_lcom_loadads_v_invoke_lcom_loadad_v_invoke_lcom_requestbannerad_v_invoke_s_v_p_d_slcom_facebook_show_v_invoke_s_v_p_d_slcom_google_show_v" />
+                     android:text="@string/invoke_lcom_requestinterstitialad_v_invoke_lcom_loadads_v_invoke_lcom_loadad_v_invoke_lcom_requestbannerad_v_invoke_s_v_p_d_slcom_facebook_show_v_invoke_s_v_p_d_slcom_google_show_v"
+                    tools:ignore="VisualLintLongText" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -840,7 +847,8 @@
                      app:simultaneousColors="3"
                      android:textColor="#ff000000"
                      android:id="@+id/t43"
-                     android:text="@string/method_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v_n_registers_d_ss_end_method" />
+                     android:text="@string/method_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v_n_registers_d_ss_end_method"
+                    tools:ignore="VisualLintLongText" />
 
                 <com.mursaat.extendedtextview.AnimatedGradientTextView
                      android:layout_height="wrap_content"
@@ -890,7 +898,8 @@
          android:layout_width="fill_parent"
          android:padding="8.0dip"
          android:orientation="horizontal"
-         android:id="@+id/linear10">
+         android:id="@+id/linear10"
+        tools:ignore="VisualLintBounds">
 
     </LinearLayout>
 

@@ -3,26 +3,39 @@ package adsreg.gaze;
 import android.annotation.SuppressLint;
 import android.content.ClipData;
 import android.content.ClipboardManager;
-import android.content.Intent;
+import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
+
 import com.mursaat.extendedtextview.AnimatedGradientTextView;
-import android.graphics.Typeface;
 
 public class MainActivity extends AppCompatActivity {
 
-    private LinearLayout[] bases = new LinearLayout[9]; // base1-base9
-    private AnimatedGradientTextView[] regexTextViews = new AnimatedGradientTextView[45]; // t1-t45
+    private final AnimatedGradientTextView[] regexTextViews = new AnimatedGradientTextView[45]; // t1-t45
     private ImageView imageMenu;
     private TextView textAds, textRegex;
     private Typeface customFont; // Кастомный шрифт
+
+    // массивы ID для regexTextViews
+    private final int[] regexTextViewIds = {
+            R.id.t1, R.id.t2, R.id.t3, R.id.t4, R.id.t5,
+            R.id.t6, R.id.t7, R.id.t8, R.id.t9, R.id.t10,
+            R.id.t11, R.id.t12, R.id.t13, R.id.t14, R.id.t15,
+            R.id.t16, R.id.t17, R.id.t18, R.id.t19, R.id.t20,
+            R.id.t21, R.id.t22, R.id.t23, R.id.t24, R.id.t25,
+            R.id.t26, R.id.t27, R.id.t28, R.id.t29, R.id.t30,
+            R.id.t31, R.id.t32, R.id.t33, R.id.t34, R.id.t35,
+            R.id.t36, R.id.t37, R.id.t38, R.id.t39, R.id.t40,
+            R.id.t41, R.id.t42, R.id.t43, R.id.t44, R.id.t45
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Загружаем кастомный шрифт из res/font через ResourcesCompat (НЕ устаревший способ)
         try {
-            customFont = ResourcesCompat.getFont(this, R.font.en_light); // Укажите имя шрифта в res/font
-        } catch (Exception e) {
-            e.printStackTrace();
+            customFont = ResourcesCompat.getFont(this, R.font.en_light);
+        } catch (Exception ignored) {
             customFont = Typeface.DEFAULT;
         }
 
@@ -43,14 +55,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        for (int i = 0; i < bases.length; i++) {
-            int resId = getResources().getIdentifier("base" + (i + 1), "id", getPackageName());
-            bases[i] = findViewById(resId);
-        }
-
-        for (int i = 0; i < regexTextViews.length; i++) {
-            int resId = getResources().getIdentifier("t" + (i + 1), "id", getPackageName());
-            regexTextViews[i] = findViewById(resId);
+        for (int i = 0; i < regexTextViewIds.length; i++) {
+            regexTextViews[i] = findViewById(regexTextViewIds[i]);
         }
 
         imageMenu = findViewById(R.id.imageview1);
@@ -86,22 +92,26 @@ public class MainActivity extends AppCompatActivity {
         };
 
         for (AnimatedGradientTextView textView : regexTextViews) {
-            textView.setOnLongClickListener(copyRegexListener);
+            if (textView != null) {
+                textView.setOnLongClickListener(copyRegexListener);
+            }
         }
 
-        imageMenu.setOnClickListener(v -> {
-            // Логика при нажатии на меню
-            // showCustomToast("Меню нажато");
-        });
+        if (imageMenu != null) {
+            imageMenu.setOnClickListener(v -> {
+                // Логика при нажатии на меню
+                // showCustomToast("Меню нажато");
+            });
+        }
     }
 
     private void copyToClipboard(String text) {
-        ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("Regex", text);
         clipboard.setPrimaryClip(clip);
     }
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("InflateParams")
     private void showCustomToast() {
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.custom_toast, null);
@@ -121,10 +131,5 @@ public class MainActivity extends AppCompatActivity {
         toast.setDuration(Toast.LENGTH_SHORT);
         toast.setView(layout);
         toast.show();
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
     }
 }
