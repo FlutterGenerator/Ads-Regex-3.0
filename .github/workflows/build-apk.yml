@@ -32,7 +32,7 @@ jobs:
         run: ./gradlew assemble${{ matrix.build_type }}
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: AdsRegex-apk-${{ matrix.build_type }}-${{ github.run_id }}
           path: app/build/outputs/apk/${{ matrix.build_type }}/app-${{ matrix.build_type }}.apk
