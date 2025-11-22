@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = 'adsreg.gaze'
-    compileSdkVersion 36
+    namespace = "adsreg.gaze"
+    compileSdk = 36
 
     defaultConfig {
         applicationId "adsreg.gaze"
-        minSdkVersion 21
-        targetSdkVersion 36
-        versionCode 161
-        versionName "5.1"
+        minSdkVersion = 21
+        targetSdk = 36
+        versionCode = 161
+        versionName = "5.1"
 
         vectorDrawables {
             useSupportLibrary = true
@@ -36,14 +36,14 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.release
-            minifyEnabled false
+            minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             debuggable false
         }
         debug {
             debuggable true
             signingConfig = signingConfigs.debug
-            minifyEnabled false
+            minifyEnabled = false
         }
     }
 
