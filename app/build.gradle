@@ -20,10 +20,10 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('HunMod.jks')
-            storePassword 'HunMod'
-            keyAlias 'HunMod'
-            keyPassword 'HunMod'
+            storeFile file("HunMod.jks")
+            storePassword "HunMod"
+            keyAlias "HunMod"
+            keyPassword "HunMod"
         }
         release {
             storeFile file("HunMod.jks")
