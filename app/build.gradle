@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id("com.android.application")
 }
 
 android {
@@ -37,7 +37,7 @@ android {
         release {
             signingConfig = signingConfigs.release
             minifyEnabled = false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             debuggable false
         }
         debug {
