@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "adsreg.gaze"
-    compileSdk 36
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "adsreg.gaze"
-        minSdk 21
-        targetSdk 36
+        minSdkVersion 21
+        targetSdkVersion 36
         versionCode 161
         versionName "5.1"
 
