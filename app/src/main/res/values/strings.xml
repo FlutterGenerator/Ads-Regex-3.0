@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ads Regex 3.0</string>
+    <string name="app_name" translatable="false">Ads Regex 3.0</string>
     <string name="ads">Ads</string>
     <string name="regex_3_0">Regex 3.0</string>
     <string name="regex_1">Regex 1</string>
