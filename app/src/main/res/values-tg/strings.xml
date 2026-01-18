@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Ads Regex 3.0</string>
+    <string name="ads">Реклама</string>
+    <string name="regex_3_0">Ифодаи мунтазам 3.0</string>
+    <string name="regex_1">Ифодаи мунтазам 1</string>
+    <string name="search">Ҷустуҷӯ</string>
+    <string name="methods_public_private_static_sb_babstract_nativeb_loadad_v">(.methods(public|private|static)sb(?!babstract|nativeb)(.*)?loadAd(.*)V)</string>
+    <string name="replace">Иваз кардан</string>
+    <string name="_1_n_n_return_void">$1\n\n return-void</string>
+    <string name="regex_2">Ифодаи мунтазам 2</string>
+    <string name="u">#</string>
+    <string name="method_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v_n_registers_d_ss_end_method">(.method.*(loadAd|requestNativeAd|showInterstitial|fetchad|fetchads|onadloaded|requestInterstitialAd|showAd|loadAds|AdRequest|requestBannerAd|loadNextAd|createInterstitialAd|setNativeAd|loadBannerAd|loadNativeAd|loadRewardedAd|loadRewardedInterstitialAd|loadAds|loadAdViewAd|showInterstitialAd|shownativead|showbannerad|showvideoad|onAdFailedToLoad)(.*)V\n .registers d+)[sS]*?.end method</string>
+    <string name="regex_9">Ифодаи мунтазам 9</string>
+    <string name="nop">nop</string>
+    <string name="invoke_lcom_requestinterstitialad_v_invoke_lcom_loadads_v_invoke_lcom_loadad_v_invoke_lcom_requestbannerad_v_invoke_s_v_p_d_slcom_facebook_show_v_invoke_s_v_p_d_slcom_google_show_v"><![CDATA[invoke-*.* {*.*}, Lcom*.*;->requestInterstitialAd(*.*)V|invoke-*.* {*.*}, Lcom*.*;->loadAds(*.*)V|invoke-*.* {*.*}, Lcom*.*;->loadAd(*.*)V|invoke-*.* {*.*}, Lcom*.*;->requestBannerAd(*.*)V|invoke-*.*s{[v|p]d},sLcom/facebook*.*;->show(*.*)V|invoke-*.*s{[v|p]d},sLcom/google*.*;->show(*.*)V]]></string>
+    <string name="regex_8">Ифодаи мунтазам 8</string>
+    <string name="invoke_l_loadad_requestnativead_showinterstitial_fetchad_fetchads_onadloaded_requestinterstitialad_showad_loadads_adrequest_requestbannerad_loadnextad_createinterstitialad_setnativead_loadbannerad_loadnativead_loadrewardedad_loadrewardedinterstitialad_loadads_loadadviewad_showinterstitialad_shownativead_showbannerad_showvideoad_onadfailedtoload_v"><![CDATA[invoke-.*{.*}, L.*;->(loadAd|requestNativeAd|showInterstitial|fetchad|fetchads|onadloaded|requestInterstitialAd|showAd|loadAds|AdRequest|requestBannerAd|loadNextAd|createInterstitialAd|setNativeAd|loadBannerAd|loadNativeAd|loadRewardedAd|loadRewardedInterstitialAd|loadAds|loadAdViewAd|showInterstitialAd|shownativead|showbannerad|showvideoad|onAdFailedToLoad)(.*)V]]></string>
+    <string name="regex_7">Ифодаи мунтазам 7</string>
+    <string name="ca_app_pub_0000000000000000_0000000000">ca-app-pub-0000000000000000/0000000000</string>
+    <string name="ca_app_pub_d_16_d_10">ca-app-pub-d{16}/d{10}</string>
+    <string name="regex_6">Ифодаи мунтазам 6</string>
+    <string name="i">=</string>
+    <string name="http_61_145_124_238_ads_ad_ads_analytics_localytics_com_mobfox_com_mp_mydas_mobi_plus1_wapstart_ru_scorecardresearch_com_startappservice_com_ad_ads_ad_mail_ad_logging_ad_api_kaffnet_com_adc3_launch_adcolony_adinformation_adkmob_admax_admob_admost_adsafeprotected_adservice_adtag_advert_adwhirl_adz_wattpad_com_alta_eqmob_com_amazon_ads_amazon_ads_amobee_analytics_applovin_applvn_appnext_appodeal_appsdt_appsflyer_burstly_cauly_cloudfront_com_google_android_gms_ads_identifier_service_start_crashlytics_crispwireless_doubleclick_dsp_batmobil_net_duapps_dummy_flurry_gad_getads_google_com_dfp_googleads_googleads_googleapis_ad_googlesyndication_googletagmanager_greystripe_gstatic_inmobi_inneractive_jumptag_live_chartboost_com_madnet_millennialmedia_moatads_mopub_native_ads_pagead_pubnative_smaato_supersonicads_tapas_tapjoy_unityads_vungle_zucks">(http.*|//.*)(61.145.124.238|-ads.|.ad.|.ads.|.analytics.localytics.com|.mobfox.com|.mp.mydas.mobi|.plus1.wapstart.ru|.scorecardresearch.com|.startappservice.com|/ad.|/ads|ad-mail|ad.*_logging|ad.api.kaffnet.com|adc3-launch|adcolony|adinformation|adkmob|admax|admob|admost|adsafeprotected|adservice|adtag|advert|adwhirl|adz.wattpad.com|alta.eqmob.com|amazon-*ads|amazon.*ads|amobee|analytics|applovin|applvn|appnext|appodeal|appsdt|appsflyer|burstly|cauly|cloudfront|com.google.android.gms.ads.identifier.service.START|crashlytics|crispwireless|doubleclick|dsp.batmobil.net|duapps|dummy|flurry|gad|getads|google.com/dfp|googleAds|googleads|googleapis.*.ad-*|googlesyndication|googletagmanager|greystripe|gstatic|inmobi|inneractive|jumptag|live.chartboost.com|madnet|millennialmedia|moatads|mopub|native_ads|pagead|pubnative|smaato|supersonicads|tapas|tapjoy|unityads|vungle|zucks).*</string>
+    <string name="regex_5">Ифодаи мунтазам 5</string>
+    <string name="_1">#$1</string>
+    <string name="invoke_gms_loadurl_loaddatawithbaseurl_requestinterstitialad_showinterstitial_showvideo_showad_loaddata_onadclicked_onadloaded_isloading_loadads_adloader_adrequest_adlistener_adview_v"><![CDATA[(invoke.*gms.*>(loadUrl|loadDataWithBaseURL|requestInterstitialAd|showInterstitial|showVideo|showAd|loadData|onAdClicked|onAdLoaded|isLoading|loadAds|AdLoader|AdRequest|AdListener|AdView).*V)]]></string>
+    <string name="regex_4">Ифодаи мунтазам 4</string>
+    <string name="invoke_loadad_vz">(invoke.*loadAd(.*)[VZ])</string>
+    <string name="regex_3">Ифодаи мунтазам 3</string>
+    <string name="_1_n_n_const_4_v0_0x0_n_n_return_v0">$1\n\n const/4 v0, 0x0\n\n return v0</string>
+    <string name="methods_public_private_static_sb_babstract_nativeb_loadad_z">(.methods(public|private|static)sb(?!babstract|nativeb)(.*)?loadAd(.*)Z)</string>
+    <string name="title">Огоҳӣ</string>
+    <string name="textview">Нусхабардорӣ ба силули мухобиротӣ!</string>
+
+</resources>
