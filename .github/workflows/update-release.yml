@@ -24,9 +24,6 @@ jobs:
       - name: Make Gradle executable
         run: chmod +x ./gradlew
 
-      - name: Run Spotless
-        run: ./gradlew :app:spotlessApply
-
       - name: Build Debug APK
         run: ./gradlew assembleDebug
 
