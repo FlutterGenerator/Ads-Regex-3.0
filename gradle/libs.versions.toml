@@ -1,0 +1,16 @@
+[versions]
+agp = "9.0.0"
+appcompat = "1.7.1"
+animatedgradienttextview = "v0.0.6"
+constraintlayout = "2.2.1"
+material = "1.14.0-alpha09" # 1.14.0-alpha09
+
+
+[libraries]
+animatedgradienttextview = { module = "com.github.Mursaat:AnimatedGradientTextView", version.ref = "animatedgradienttextview" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

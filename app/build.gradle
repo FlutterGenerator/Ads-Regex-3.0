@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    alias(libs.plugins.android.application)
 }
 
 android {
@@ -10,8 +10,8 @@ android {
         applicationId "adsreg.gaze"
         minSdkVersion 24
         targetSdkVersion 36
-        versionCode 162
-        versionName "5.2"
+        versionCode 163
+        versionName "5.3"
 
         vectorDrawables {
             useSupportLibrary = true
@@ -62,8 +62,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
-    implementation("com.google.android.material:material:1.14.0-alpha09")
-    implementation("androidx.appcompat:appcompat:1.7.1")
-    implementation("com.github.Mursaat:AnimatedGradientTextView:v0.0.6")
+    implementation(libs.constraintlayout)
+    implementation(libs.material)
+    implementation(libs.appcompat)
+    implementation(libs.animatedgradienttextview)
 }

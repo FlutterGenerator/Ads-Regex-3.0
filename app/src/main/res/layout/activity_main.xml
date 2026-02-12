@@ -7,7 +7,7 @@
     android:layout_width="fill_parent"
     android:orientation="vertical">
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
          android:layout_height="wrap_content"
          android:layout_width="fill_parent"
          android:background="#ffffffff"
@@ -40,7 +40,7 @@
                 android:orientation="horizontal"
                 android:padding="8.0dip">
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/textview3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                     android:textColor="#ff000000"
                     android:textSize="20.0sp" />
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/textview4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -891,7 +891,7 @@
 
         </LinearLayout>
 
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
     <LinearLayout
          android:layout_height="291.0dip"
