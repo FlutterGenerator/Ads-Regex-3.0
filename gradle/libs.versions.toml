@@ -2,7 +2,7 @@
 agp = "9.2.1"
 appcompat = "1.7.1"
 animatedgradienttextview = "v0.0.6"
-constraintlayout = "2.2.1"
+constraintlayout = "2.2.2"
 material = "1.14.0" # 1.14.0-alpha09
 
 
